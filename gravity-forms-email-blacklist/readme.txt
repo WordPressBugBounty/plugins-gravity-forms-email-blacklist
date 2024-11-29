@@ -1,14 +1,14 @@
 ==== Gravity Forms Email Blacklist ====
-Contributors: crosspeak, hallme, timbhowe, matt-h-1, Matt Thomas
-Donate link: N/A
-Tags: gravity forms, gravity form, forms, gravity, form, email blacklist, block email, blacklist
+Contributors: crosspeak, hallme, timbhowe, matt-h-1
+Donate link: https://www.crosspeaksoftware.com/process-payment/
+Tags: gravity forms, email blacklist, block email, blacklist
 Requires at least: 3.8
-Tested up to: 6.3.1
+Tested up to: 6.6.2
 Stable tag: 2.5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-An add-on plugin for Gravity Forms that allows the Blacklisting of specific emails or email domains that are entered in [Email input fields](https://docs.gravityforms.com/email/) to throw a validation error and blocking the form submission.
+An add-on for Gravity Forms that allows the Blacklisting of specific emails or domains for the Email input field to throw a validation erroro
 
 === Description ===
 
@@ -71,7 +71,7 @@ Once set up these settings will be used on this form only and in place of the gl
 
 = 2.5.4 =
 * Fixed validation function to remove any empty values for the array of blacklisted emails to prevent false positives from empty email fields.
-* Added capability declination to the class to allow the plugin to work with role and capabilities plugins. 
+* Added capability declination to the class to allow the plugin to work with role and capabilities plugins.
 
 = 2.5.3 =
 * Updated labels and descriptions throughout the admin settings to improve clarity.
