@@ -4,11 +4,11 @@ Donate link: https://www.crosspeaksoftware.com/process-payment/
 Tags: gravity forms, email blacklist, block email, blacklist
 Requires at least: 3.8
 Tested up to: 6.7.2
-Stable tag: 2.6.0
+Stable tag: 2.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-An add-on plugin for Gravity Forms that allows the Blacklisting of specific emails or email domains that are entered in [Email input fields](https://docs.gravityforms.com/email/) to throw a validation error and blocking the form submission.
+Add-on for Gravity Forms to create a Blacklisting of specific emails or domains for the Email input field to throw a validation error or mark as spam.
 
 === Description ===
 
@@ -62,6 +62,9 @@ Once set up these settings will be used on this form only and in place of the gl
 * [Gravity Forms Documentation - Fighting Spam](https://docs.gravityforms.com/spam/)
 
 === Changelog ===
+
+= 2.6.1 =
+* Fix: Better handle invalid syntax in the blacklist rules and ignore it.
 
 = 2.6.0 =
 * Enhancement: Added support to treat submissions with blacklisted emails as spam.
